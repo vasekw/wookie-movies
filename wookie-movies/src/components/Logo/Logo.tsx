@@ -7,9 +7,9 @@ const Logo: React.FC = () => {
     return (
         <div className={styles.wrapper}>
             <Link className={styles.link} href='/'>
-                <Image className={styles.image} width={48} height={48} alt="wookie" src='/images/chewy-icon.png'/>
+                <Image className={styles.image} width={48} height={48} alt="wookie" src='/images/chewy-icon.svg'/>
                 <div className={styles.title}>
-                    Wookie Movies
+                    W-Movies
                 </div>
             </Link>
         </div>

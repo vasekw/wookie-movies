@@ -8,6 +8,7 @@
     flex-direction: column;
     width: 100%;
     padding: 20px;
+    background-color: #1f1f1f;
 }
 
 .footer {
@@ -18,6 +19,11 @@
 
 .header {
     width: 100%;
+}
+
+.content {
+    width: 100%;
+    display: flex;
 }
 
 

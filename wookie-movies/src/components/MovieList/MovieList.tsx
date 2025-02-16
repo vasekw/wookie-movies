@@ -1,6 +1,9 @@
-import {fetchMovies, Movie} from "@/helpers/movieApi";
-import styles from './MovieList.module.scss'
+import styles from './MovieList.module.scss';
+import classNames from 'classnames';
 import MovieCarousel from "@/components/MovieCarousel/MovieCarousel";
+import {monoton} from "@/app/fonts";
+import React from "react";
+import {Movie} from "@/helpers/movieApi";
 
 const groupMoviesByGenre = (movies: Movie[]) => {
     return movies.reduce<Record<string, Movie[]>>((acc, movie) => {
@@ -14,18 +17,13 @@ const groupMoviesByGenre = (movies: Movie[]) => {
     }, {});
 };
 
-const MovieList = async () => {
-    let movies: Movie[] = [];
-    let error: string | null = null;
+interface MovieListProps {
+    movies: Movie[];
+}
 
-    try {
-        const response = await fetchMovies();
-        movies = response.movies;
-    } catch (err) {
-        error = 'Failed to fetch movies.';
-    }
 
-    if (error) return <p>{error}</p>;
+const MovieList: React.FC<MovieListProps> = ({movies}) => {
+
 
     const groupedMovies = groupMoviesByGenre(movies);
 
@@ -33,7 +31,7 @@ const MovieList = async () => {
         <div>
             {Object.entries(groupedMovies).map(([genre, movies]) => (
                 <div key={genre}>
-                    <h2>{genre}</h2>
+                    <div className={classNames(monoton.className, styles.title)}>{genre}</div>
                     <MovieCarousel movies={movies}/>
                 </div>
             ))}

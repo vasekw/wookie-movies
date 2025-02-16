@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "@mui/icons-material": "^6.4.4",
+    "@next/font": "^14.2.15",
     "axios": "^1.7.9",
+    "classnames": "^2.5.1",
     "next": "15.1.7",
     "postcss": "^8.5.2",
     "react": "^19.0.0",

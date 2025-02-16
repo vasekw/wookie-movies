@@ -16,7 +16,7 @@ export default async function Page({params}: PageProps) {
             <header className={styles.header}>
                 <MenuBar/>
             </header>
-            <div>
+            <div className={styles.content}>
                 <MovieView id={id}/>
             </div>
         </div>

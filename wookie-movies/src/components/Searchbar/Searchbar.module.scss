@@ -1,5 +1,48 @@
 .wrapper {
   display: flex;
   align-items: center;
-  background-color: #0a0a0a;
+  background: #f8f9fa;
+  border-radius: 25px;
+  padding: 5px 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+
+  &::placeholder {
+    color: #999;
+  }
+}
+
+.button {
+  background: #007bff;
+  border: none;
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    background: #0056b3;
+  }
+
+  svg {
+    color: white;
+    font-size: 20px;
+  }
 }
