@@ -1,0 +1,22 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  justify-content: left;
+  flex-direction: row;
+}
+
+.swiper {
+  display: flex;
+  justify-content: left;
+  justify-items: left;
+  gap: 10px;
+}
+
+//
+//.swiper-slide {
+//  background-position: center;
+//  background-size: cover;
+//  width: 300px;
+//  height: 300px;
+//}

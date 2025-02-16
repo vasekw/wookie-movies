@@ -1,0 +1,12 @@
+@import '../../styles/colours';
+
+
+.menuBar {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $primary-1;
+  padding: 10px 20px;
+}

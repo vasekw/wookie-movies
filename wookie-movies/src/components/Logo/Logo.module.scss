@@ -1,0 +1,26 @@
+@import '../../styles/colours';
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 4px;
+}
+
+.image {
+}
+
+.title {
+  display: flex;
+  font-size: 30px;
+  font-family: 'wookie', sans-serif;
+  color: $primary-3;
+}

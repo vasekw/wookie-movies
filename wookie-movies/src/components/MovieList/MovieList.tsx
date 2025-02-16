@@ -1,5 +1,6 @@
-import {fetchMovies} from "@/helpers/fetchMovies";
-import {Movie} from "@/helpers/fetchMovies";
+import {fetchMovies, Movie} from "@/helpers/movieApi";
+import styles from './MovieList.module.scss'
+import MovieCarousel from "@/components/MovieCarousel/MovieCarousel";
 
 const groupMoviesByGenre = (movies: Movie[]) => {
     return movies.reduce<Record<string, Movie[]>>((acc, movie) => {
@@ -33,11 +34,7 @@ const MovieList = async () => {
             {Object.entries(groupedMovies).map(([genre, movies]) => (
                 <div key={genre}>
                     <h2>{genre}</h2>
-                    <ul>
-                        {movies.map(movie => (
-                            <li key={movie.id}>{movie.title}</li>
-                        ))}
-                    </ul>
+                    <MovieCarousel movies={movies}/>
                 </div>
             ))}
         </div>
