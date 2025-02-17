@@ -5,6 +5,14 @@ import styles from './MovieView.module.scss';
 import Image from "next/image";
 import {Movie} from "@/helpers/movieApi";
 import SpaceRating from "@/components/SpaceRating/SpaceRating";
+import {Fragment_Mono} from "next/font/google";
+import classNames from "classnames";
+
+const fragmentMono = Fragment_Mono({
+    subsets: ['latin'],
+    display: 'swap',
+    weight: '400'
+});
 
 interface MovieViewProps {
     movie: Movie;
@@ -17,9 +25,7 @@ const MovieView: React.FC<MovieViewProps> = ({movie}) => {
         return (Math.round(rating * 10) / 10).toFixed(1);
     };
 
-
     const formattedRating = formatRating(movie.imdb_rating);
-
 
     return (
         <div className={styles.wrapper}>
@@ -35,7 +41,9 @@ const MovieView: React.FC<MovieViewProps> = ({movie}) => {
                 )}
                 <div className={styles.detailsWrapper}>
                     <div className={styles.titleWrapper}>
-                        <div className={styles.title}>{movie.title} ({formattedRating})</div>
+                        <div
+                            className={classNames(fragmentMono.className, styles.title)}>{movie.title} ({formattedRating})
+                        </div>
                         <div className={styles.rating}>
                             <SpaceRating name="half-rating-read" defaultValue={movie.imdb_rating} precision={0.1}
                                          max={10}
