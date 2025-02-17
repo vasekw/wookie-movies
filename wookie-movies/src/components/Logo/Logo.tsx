@@ -16,7 +16,8 @@ const Logo: React.FC = () => {
     return (
         <div className={styles.wrapper}>
             <Link className={styles.link} href='/'>
-                <Image className={styles.image} width={48} height={48} alt="wookie" src='/images/chewy-96.png'/>
+                <Image className={styles.image} width={48} height={48} alt="wookie" src='/images/chewy-96.png'
+                       priority={true}/>
                 <div className={classNames(styles.title, bangers.className)}>
                     W-Movies
                 </div>

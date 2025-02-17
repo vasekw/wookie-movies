@@ -22,12 +22,14 @@ const ContentWrapper: React.FC = () => {
     const movie = searchParams.get("movie") || "";
 
     useEffect(() => {
+        setError(null);
+
         const handler = setTimeout(() => {
             setDebouncedQuery(query);
         }, SEARCH_DEBOUNCE_TIME);
 
         return () => clearTimeout(handler);
-    }, [query]);
+    }, [query, movie]);
 
     useEffect(() => {
         const loadMovies = async () => {
@@ -56,7 +58,7 @@ const ContentWrapper: React.FC = () => {
     }, [debouncedQuery, movie]);
 
     if (error) {
-        return <div>{error}</div>;
+        return <div className={styles.error}>{error}</div>;
     }
 
     return (

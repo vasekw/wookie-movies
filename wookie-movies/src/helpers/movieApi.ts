@@ -1,4 +1,4 @@
-import axios from "axios";
+import axios from 'axios';
 
 export type Movie = {
     backdrop: string;
@@ -20,27 +20,23 @@ export type MoviesResponse = {
     movies: Movie[];
 };
 
-const API_BASE_URL = "https://wookie.codesubmit.io";
-const AUTH_HEADER = {Authorization: "Bearer Wookie2021"};
-
 const apiClient = axios.create({
-    baseURL: API_BASE_URL,
-    headers: AUTH_HEADER,
+    baseURL: '/api',
 });
 
 export const fetchMovies = async (): Promise<MoviesResponse> => {
-    const response = await apiClient.get<MoviesResponse>("/movies");
+    const response = await apiClient.get<MoviesResponse>('/movies');
     return response.data;
 };
 
 export const searchMovies = async (query: string): Promise<MoviesResponse> => {
-    const response = await apiClient.get<MoviesResponse>("/movies", {
+    const response = await apiClient.get<MoviesResponse>('/movies', {
         params: {q: query},
     });
     return response.data;
 };
 
 export const fetchMovieById = async (id: string): Promise<Movie> => {
-    const response = await apiClient.get<Movie>(`/movies/${id}`);
+    const response = await apiClient.get<Movie>(`/movies?id=${id}`);
     return response.data;
 };
