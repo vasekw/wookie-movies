@@ -10,7 +10,7 @@ const compat = new FlatCompat({
 });
 
 const eslintConfig = [
-    ...compat.extends("next/core-web-vitals", "next/typescript", "plugin:testing-library/react", "plugin:jest-dom/recommended"),
+    ...compat.extends("next/core-web-vitals", "next/typescript", "plugin:testing-library/react", "plugin:jest-dom/recommended", "prettier"),
 ];
 
 export default eslintConfig;
