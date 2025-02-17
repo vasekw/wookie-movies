@@ -14,7 +14,7 @@ const bangers = Bangers({
 
 const Logo: React.FC = () => {
     return (
-        <div className={styles.wrapper}>
+        <div data-testid="Logo" className={styles.wrapper}>
             <Link className={styles.link} href='/'>
                 <Image className={styles.image} width={48} height={48} alt="wookie" src='/images/chewy-96.png'
                        priority={true}/>

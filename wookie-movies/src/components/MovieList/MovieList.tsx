@@ -12,7 +12,7 @@ export const bungeeHairline = Bungee_Hairline({
 })
 
 
-const groupMoviesByGenre = (movies: Movie[]) => {
+export const groupMoviesByGenre = (movies: Movie[]) => {
     return movies.reduce<Record<string, Movie[]>>((acc, movie) => {
         movie.genres.forEach(genre => {
             if (!acc[genre]) {
@@ -38,7 +38,8 @@ const MovieList: React.FC<MovieListProps> = ({movies}) => {
         <div>
             {Object.entries(groupedMovies).map(([genre, movies]) => (
                 <div key={genre}>
-                    <div className={classNames(styles.title, bungeeHairline.className)}>{genre}</div>
+                    <div data-testid={`MovieList-${genre}-title`}
+                         className={classNames(styles.title, bungeeHairline.className)}>{genre}</div>
                     <MovieCarousel movies={movies}/>
                 </div>
             ))}

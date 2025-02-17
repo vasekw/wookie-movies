@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import SearchIcon from "@mui/icons-material/Search";
-import styles from "./Searchbar.module.scss";
+import styles from "./SearchBar.module.scss";
 
 interface SearchBarProps {
     onSearch: (query: string) => void;
@@ -22,8 +22,9 @@ const SearchBar: React.FC<SearchBarProps> = ({onSearch}) => {
     };
 
     return (
-        <div className={styles.wrapper}>
+        <div data-testid="SearchBar" className={styles.wrapper}>
             <input
+                data-testid="SearchBar-input"
                 type="text"
                 value={query}
                 onChange={handleInputChange}

@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
 import {useRouter} from 'next/navigation';
-import SearchBar from "@/components/Searchbar/Searchbar";
+import SearchBar from "@/components/Searchbar/SearchBar";
 import styles from './MenuBar.module.scss';
 import Logo from "@/components/Logo/Logo";
 

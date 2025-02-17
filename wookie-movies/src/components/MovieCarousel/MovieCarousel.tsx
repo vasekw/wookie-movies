@@ -31,12 +31,14 @@ const MovieCarousel: React.FC<MovieCarouselProps> = ({movies}) => {
     }, []);
 
     return (
-        <div className={styles.wrapper} ref={carouselRef} onScroll={handleScroll}>
-            <div className={styles.swiper}>
+        <div data-testid="MovieCarousel-wrapper" className={styles.wrapper} ref={carouselRef} onScroll={handleScroll}>
+            <div data-testid="MovieCarousel" className={styles.swiper}>
                 {movies.map(movie => (
                     <div key={movie.id} className={styles.swiperSlide}>
                         <a href={`?movie=${movie.id}`}>
-                            <Image src={movie.poster} alt={movie.title} width={240} height={360}/>
+                            <Image data-testid={`MovieCarousel-image-${movie.id}`} src={movie.poster} alt={movie.title}
+                                   width={240}
+                                   height={360}/>
                             <div className={classNames(fragmentMono.className, styles.overlay)}>{movie.title}</div>
                         </a>
                     </div>

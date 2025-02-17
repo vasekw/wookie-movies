@@ -5,13 +5,13 @@ import ContentWrapper from "@/components/ContentWrapper/ContentWrapper";
 export default function Home() {
     return (
         <div className={styles.page}>
-            <header className={styles.header}>
+            <header data-testid="header" className={styles.header}>
                 <MenuBar/>
             </header>
-            <main className={styles.main}>
+            <main data-testid="main" className={styles.main}>
                 <ContentWrapper/>
             </main>
-            <footer className={styles.footer}></footer>
+            <footer data-testid="footer" className={styles.footer}></footer>
         </div>
     );
 }
