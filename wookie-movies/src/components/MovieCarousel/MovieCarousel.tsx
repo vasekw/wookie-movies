@@ -4,6 +4,14 @@ import React, {useRef, useCallback} from 'react';
 import styles from './MovieCarousel.module.scss';
 import {Movie} from "@/helpers/movieApi";
 import Image from "next/image";
+import {Fragment_Mono} from 'next/font/google'
+import classNames from "classnames";
+
+const fragmentMono = Fragment_Mono({
+    subsets: ['latin'],
+    display: 'swap',
+    weight: '400'
+})
 
 interface MovieCarouselProps {
     movies: Movie[];
@@ -31,7 +39,7 @@ const MovieCarousel: React.FC<MovieCarouselProps> = ({movies}) => {
                     <div key={movie.id} className={styles.swiperSlide}>
                         <a href={`movie/${movie.id}`}>
                             <Image src={movie.poster} alt={movie.title} width={240} height={360}/>
-                            <div className={styles.overlay}>{movie.title}</div>
+                            <div className={classNames(fragmentMono.className, styles.overlay)}>{movie.title}</div>
                         </a>
                     </div>
                 ))}

@@ -1,9 +1,16 @@
 import styles from './MovieList.module.scss';
-import classNames from 'classnames';
 import MovieCarousel from "@/components/MovieCarousel/MovieCarousel";
-import {monoton} from "@/app/fonts";
 import React from "react";
 import {Movie} from "@/helpers/movieApi";
+import {Bungee_Hairline} from 'next/font/google'
+import classNames from "classnames";
+
+export const bungeeHairline = Bungee_Hairline({
+    subsets: ['latin'],
+    display: 'swap',
+    weight: '400'
+})
+
 
 const groupMoviesByGenre = (movies: Movie[]) => {
     return movies.reduce<Record<string, Movie[]>>((acc, movie) => {
@@ -31,7 +38,7 @@ const MovieList: React.FC<MovieListProps> = ({movies}) => {
         <div>
             {Object.entries(groupedMovies).map(([genre, movies]) => (
                 <div key={genre}>
-                    <div className={classNames(monoton.className, styles.title)}>{genre}</div>
+                    <div className={classNames(styles.title, bungeeHairline.className)}>{genre}</div>
                     <MovieCarousel movies={movies}/>
                 </div>
             ))}

@@ -4,7 +4,7 @@ export type Movie = {
     backdrop: string;
     cast: string[];
     classification: string;
-    director: string;
+    director: string | string[];
     genres: string[];
     id: string;
     imdb_rating: number;

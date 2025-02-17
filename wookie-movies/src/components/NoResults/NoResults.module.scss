@@ -1,0 +1,15 @@
+.noResults {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px
+}
+
+.noResultsTitle {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}

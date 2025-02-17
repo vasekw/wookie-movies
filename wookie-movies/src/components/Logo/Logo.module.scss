@@ -1,5 +1,4 @@
 @import '../../styles/colours';
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Monoton&display=swap');
 
 .wrapper {
   display: flex;
@@ -23,7 +22,7 @@
 .title {
   display: flex;
   font-size: 30px;
-  font-family: Monoton, sans-serif;
+  font-family: sans-serif;
   color: white;
   text-shadow: #FC0 1px 0 10px;
 }

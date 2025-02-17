@@ -9,12 +9,19 @@
     width: 100%;
     padding: 20px;
     background-color: #1f1f1f;
+    min-height: 600px;
 }
 
 .footer {
     grid-row-start: 3;
     display: flex;
     gap: 24px;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header {

@@ -4,7 +4,8 @@ import React, {useEffect, useState} from "react";
 import styles from './MovieView.module.scss';
 import Image from "next/image";
 import {Movie, fetchMovieById} from "@/helpers/movieApi";
-import {Rating, Skeleton} from "@mui/material";
+import {Skeleton} from "@mui/material";
+import SpaceRating from "@/components/SpaceRating/SpaceRating";
 
 interface MovieViewProps {
     id: string;
@@ -71,13 +72,15 @@ const MovieView: React.FC<MovieViewProps> = ({id}) => {
                 <div className={styles.titleWrapper}>
                     <div className={styles.title}>{movie.title} ({formattedRating})</div>
                     <div className={styles.rating}>
-                        <Rating name="half-rating-read" defaultValue={movie.imdb_rating} precision={0.1} max={10}
-                                readOnly/></div>
+                        <SpaceRating name="half-rating-read" defaultValue={movie.imdb_rating} precision={0.1} max={10}
+                                     readOnly/></div>
                 </div>
                 <div className={styles.detailRow}>
                     <div className={styles.detail}>{new Date(movie.released_on).getFullYear()}</div>
                     <div className={styles.detail}>{movie.length}</div>
-                    <div className={styles.detail}>{movie.director}</div>
+                    <div className={styles.detail}>
+                        {Array.isArray(movie.director) ? movie.director.join(', ') : movie.director}
+                    </div>
                 </div>
                 <div className={styles.detail}>Cast: {movie.cast?.join(', ')}</div>
                 <div className={styles.detail}>{movie.overview}</div>
