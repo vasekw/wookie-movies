@@ -1,4 +1,4 @@
-@import '../../styles/colours';
+@use '../../styles/colours';
 
 
 .menuBar {
@@ -7,6 +7,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: $primary-1;
+  background-color: colours.$primary-1;
   padding: 10px 20px;
 }

@@ -12,12 +12,12 @@ const SearchBar: React.FC<SearchBarProps> = ({onSearch}) => {
     const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         const newQuery = event.target.value;
         setQuery(newQuery);
-        onSearch(newQuery); // Trigger search on each input change
+        onSearch(newQuery);
     };
 
     const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
         if (event.key === "Enter") {
-            onSearch(query); // Trigger search on Enter press
+            onSearch(query);
         }
     };
 

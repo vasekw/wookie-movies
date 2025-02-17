@@ -7,10 +7,23 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   width: 100%;
   min-height: 600px;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  max-width: 800px;
+  gap: 1.5rem;
+  justify-content: space-between;
+  margin-top: 30px;
 }
 
 .image {
   border-radius: 8px;
+}
+
+.skeleton {
+  background-color: #434242;
 }
 
 .detailsWrapper {
@@ -21,11 +34,17 @@
 
 .titleWrapper {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   font-size: 1.4rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.title {
+  max-width: 300px;
 }
 
 .rating {
@@ -40,17 +59,22 @@
   color: #b3b3b3;
   margin-bottom: 0.5rem;
   text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  max-width: 300px;
+  flex-wrap: wrap;
 }
 
 .detail {
   font-size: 0.9rem;
   color: #d1d1d1;
   text-align: left;
+  max-width: 300px;
 }
 
 
 @media (max-width: 768px) {
-  .wrapper {
+  .wrapper .content {
     flex-direction: column;
     align-items: center;
     text-align: center;

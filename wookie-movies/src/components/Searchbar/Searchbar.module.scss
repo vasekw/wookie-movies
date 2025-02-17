@@ -1,4 +1,4 @@
-@import '../../styles/colours';
+@use '../../styles/colours';
 
 .wrapper {
   display: flex;
@@ -29,7 +29,7 @@
 }
 
 .button {
-  background: $primary-5;
+  background: colours.$primary-5;
   border: none;
   padding: 8px;
   border-radius: 50%;
@@ -40,7 +40,7 @@
   justify-content: center;
 
   &:hover {
-    background: $primary-4;
+    background: colours.$primary-4;
   }
 
   svg {
