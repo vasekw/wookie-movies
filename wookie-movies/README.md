@@ -6,7 +6,11 @@ Sit back and enjoy the ride (after some initial configuration).
 
 ## Getting Started
 
-First, change your current directory to the project directory
+Before starting, ensure you have the latest version of [Node.js](https://nodejs.org/en) installed, which should
+include [npm](https://docs.npmjs.com/)
+by default.
+
+To begin, change your current directory to the project directory
 
 ```bash
 cd wookie-movies
@@ -17,6 +21,12 @@ Then, add the following to your ```.env.local``` file:
 ```code
 API_BASE_URL=https://wookie.codesubmit.io
 API_ACCESS_KEY=Wookie2021
+```
+
+Install the package dependencies using
+
+```bash
+npm install
 ```
 
 Finally, run the dev server
