@@ -33,7 +33,7 @@ const MovieList: React.FC<MovieListProps> = ({ movies }) => {
   return (
     <div>
       {Object.entries(groupedMovies).map(([genre, movies]) => (
-        <div key={genre}>
+        <div data-testid="MovieList" key={genre}>
           <div
             data-testid={`MovieList-${genre}-title`}
             className={classNames(styles.title, bungeeHairline.className)}
