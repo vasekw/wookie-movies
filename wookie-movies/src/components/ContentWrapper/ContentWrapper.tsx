@@ -22,11 +22,14 @@ const ContentWrapper: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
   const [debouncedQuery, setDebouncedQuery] = useState<string>("");
+  const [isQuerying, setIsQuerying] = useState<boolean>(false);
   const searchParams = useSearchParams();
   const query = searchParams.get("q") || "";
   const movie = searchParams.get("movie") || "";
 
   useEffect(() => {
+    setIsQuerying(true);
+
     setError(null);
 
     const handler = setTimeout(() => {
@@ -41,19 +44,22 @@ const ContentWrapper: React.FC = () => {
       setLoading(true);
       try {
         if (movie) {
+          setIsQuerying(false);
           const response = await fetchMovieById(movie);
           setMovieData(response);
         } else if (debouncedQuery) {
+          setIsQuerying(false);
           const response = await searchMovies(debouncedQuery);
           setMovies(response.movies);
           setMovieData(null);
-        } else {
+        } else if (!query) {
+          setIsQuerying(false);
           const response = await fetchMovies();
           setMovies(response.movies);
           setMovieData(null);
         }
       } catch {
-        setError("Failed to fetch movies.");
+        setError("Failed to fetch content.");
       } finally {
         setLoading(false);
       }
@@ -70,9 +76,11 @@ const ContentWrapper: React.FC = () => {
     );
   }
 
+  const shouldRenderLoading = loading || isQuerying;
+
   return (
     <div>
-      {loading ? (
+      {shouldRenderLoading ? (
         <div className={styles.loading}>
           <CircularProgress size={80} />
         </div>
@@ -81,7 +89,7 @@ const ContentWrapper: React.FC = () => {
       ) : movies.length > 0 ? (
         <MovieList movies={movies} isSearch={!!debouncedQuery} />
       ) : (
-        !loading && <NoResults />
+        !loading && !isQuerying && <NoResults />
       )}
     </div>
   );

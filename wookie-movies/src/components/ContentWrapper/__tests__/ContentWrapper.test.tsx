@@ -30,18 +30,24 @@ const mockMovie: Movie = {
 describe("ContentWrapper", () => {
   afterEach(() => {
     jest.clearAllMocks();
+    jest.resetAllMocks();
   });
 
-  const fetchMovieMock = (
-    movieApi.fetchMovieById as jest.Mock
-  ).mockResolvedValue({});
   const searchMoviesMock = (
-    movieApi.fetchMovies as jest.Mock
-  ).mockResolvedValue({ movies: [] });
+    movieApi.searchMovies as jest.Mock
+  ).mockResolvedValue({ movies: [mockMovie] });
+
+  const fetchMoviesMock = (movieApi.fetchMovies as jest.Mock).mockResolvedValue(
+    { movies: [] },
+  );
+
+  const getMovieMock = (movieApi.fetchMovieById as jest.Mock).mockResolvedValue(
+    { mockMovie },
+  );
 
   it("should show loading state while fetching data", async () => {
     const searchMoviesMock = (
-      movieApi.fetchMovies as jest.Mock
+      movieApi.searchMovies as jest.Mock
     ).mockResolvedValueOnce(
       new Promise((resolve) => setTimeout(() => resolve({ movies: [] }), 2000)),
     );
@@ -55,15 +61,16 @@ describe("ContentWrapper", () => {
     });
 
     expect(screen.getByRole("progressbar")).toBeInTheDocument();
-    expect(searchMoviesMock).toHaveBeenCalledTimes(1);
-    expect(fetchMovieMock).toHaveBeenCalledTimes(0);
+    await waitFor(() => expect(searchMoviesMock).toHaveBeenCalledTimes(1));
+    await waitFor(() => expect(fetchMoviesMock).toHaveBeenCalledTimes(0));
+    await waitFor(() => expect(getMovieMock).toHaveBeenCalledTimes(0));
   });
 
   it("should display an error message if fetching fails", async () => {
     const mockSearchParams = new URLSearchParams({ q: "1" });
     (useSearchParams as jest.Mock).mockImplementation(() => mockSearchParams);
 
-    (movieApi.fetchMovies as jest.Mock).mockRejectedValue(
+    (movieApi.searchMovies as jest.Mock).mockRejectedValue(
       new Error("API error"),
     );
 
@@ -72,6 +79,9 @@ describe("ContentWrapper", () => {
     await waitFor(() => {
       expect(screen.getByTestId("ContentWrapper-error")).toBeInTheDocument();
     });
+    expect(searchMoviesMock).toHaveBeenCalledTimes(1);
+    expect(fetchMoviesMock).toHaveBeenCalledTimes(0);
+    expect(getMovieMock).toHaveBeenCalledTimes(0);
   });
 
   it("should display movie view if movie query exists", async () => {
@@ -87,8 +97,9 @@ describe("ContentWrapper", () => {
     await waitFor(() => {
       expect(screen.getByTestId("MovieView-1")).toBeInTheDocument();
     });
-    expect(fetchMovieMock).toHaveBeenCalledTimes(1);
     expect(searchMoviesMock).toHaveBeenCalledTimes(0);
+    expect(fetchMoviesMock).toHaveBeenCalledTimes(0);
+    expect(getMovieMock).toHaveBeenCalledTimes(1);
   });
 
   it("should display carousel view if no query exists", async () => {
@@ -100,12 +111,15 @@ describe("ContentWrapper", () => {
     ).mockResolvedValue({
       movies: [mockMovie],
     });
-
-    render(<ContentWrapper />);
-
+    // eslint-disable-next-line testing-library/no-unnecessary-act
+    await act(async () => {
+      render(<ContentWrapper />);
+    });
     await waitFor(() => {
       expect(screen.getByTestId("MovieList")).toBeInTheDocument();
     });
+    expect(searchMoviesMock).toHaveBeenCalledTimes(0);
     expect(fetchMoviesMock).toHaveBeenCalledTimes(1);
+    expect(getMovieMock).toHaveBeenCalledTimes(0);
   });
 });
