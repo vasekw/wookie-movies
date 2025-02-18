@@ -79,7 +79,7 @@ const ContentWrapper: React.FC = () => {
       ) : movieData ? (
         <MovieView movie={movieData} />
       ) : movies.length > 0 ? (
-        <MovieList movies={movies} />
+        <MovieList movies={movies} isSearch={!!debouncedQuery} />
       ) : (
         !loading && <NoResults />
       )}

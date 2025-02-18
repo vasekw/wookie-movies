@@ -1,5 +1,6 @@
 import styles from "./MovieList.module.scss";
 import MovieCarousel from "@/components/MovieCarousel/MovieCarousel";
+import MovieGrid from "@/components/MovieGrid/MovieGrid"; // Import the MovieGrid component
 import React from "react";
 import { Movie } from "@/helpers/movieApi";
 import { Bungee_Hairline } from "next/font/google";
@@ -25,9 +26,15 @@ export const groupMoviesByGenre = (movies: Movie[]) => {
 
 interface MovieListProps {
   movies: Movie[];
+  isSearch?: boolean;
 }
 
-const MovieList: React.FC<MovieListProps> = ({ movies }) => {
+const MovieList: React.FC<MovieListProps> = ({ movies, isSearch }) => {
+  if (isSearch) {
+    return <MovieGrid movies={movies} />;
+  }
+
+  // Otherwise, group the movies by genre and display them in a carousel
   const groupedMovies = groupMoviesByGenre(movies);
 
   return (
