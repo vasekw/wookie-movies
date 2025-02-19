@@ -16,11 +16,11 @@ To begin, change your current directory to the project directory
 cd wookie-movies
 ```
 
-Then, add the following to your ```.env.local``` file:
+Ensure your ```.env.local``` file has the following variables:
 
 ```code
-API_BASE_URL=https://wookie.codesubmit.io
-API_ACCESS_KEY=Wookie2021
+API_BASE_URL=
+API_ACCESS_KEY=
 ```
 
 Install the package dependencies using
