@@ -1,0 +1,3361 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders SpaceRating unchanged 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-pikhkf"
+  >
+    <span
+      class="MuiRating-root MuiRating-sizeMedium css-1im27rh-MuiRating-root"
+    >
+      <span
+        class="MuiRating-decimal css-1czqjfa-MuiRating-decimal"
+      >
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r1:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            0.1 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r1:"
+          name="test"
+          type="radio"
+          value="0.1"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r2:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            0.2 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r2:"
+          name="test"
+          type="radio"
+          value="0.2"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r3:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            0.3 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r3:"
+          name="test"
+          type="radio"
+          value="0.3"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r4:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            0.4 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r4:"
+          name="test"
+          type="radio"
+          value="0.4"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r5:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            0.5 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r5:"
+          name="test"
+          type="radio"
+          value="0.5"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r6:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            0.6 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r6:"
+          name="test"
+          type="radio"
+          value="0.6"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r7:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            0.7 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r7:"
+          name="test"
+          type="radio"
+          value="0.7"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r8:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            0.8 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r8:"
+          name="test"
+          type="radio"
+          value="0.8"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r9:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            0.9 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r9:"
+          name="test"
+          type="radio"
+          value="0.9"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:ra:"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            1 Star
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:ra:"
+          name="test"
+          type="radio"
+          value="1"
+        />
+      </span>
+      <span
+        class="MuiRating-decimal css-1czqjfa-MuiRating-decimal"
+      >
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:rb:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            1.1 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:rb:"
+          name="test"
+          type="radio"
+          value="1.1"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:rc:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            1.2 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:rc:"
+          name="test"
+          type="radio"
+          value="1.2"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:rd:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            1.3 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:rd:"
+          name="test"
+          type="radio"
+          value="1.3"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:re:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            1.4 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:re:"
+          name="test"
+          type="radio"
+          value="1.4"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:rf:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            1.5 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:rf:"
+          name="test"
+          type="radio"
+          value="1.5"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:rg:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            1.6 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:rg:"
+          name="test"
+          type="radio"
+          value="1.6"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:rh:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            1.7 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:rh:"
+          name="test"
+          type="radio"
+          value="1.7"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:ri:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            1.8 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:ri:"
+          name="test"
+          type="radio"
+          value="1.8"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:rj:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            1.9 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:rj:"
+          name="test"
+          type="radio"
+          value="1.9"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:rk:"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            2 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:rk:"
+          name="test"
+          type="radio"
+          value="2"
+        />
+      </span>
+      <span
+        class="MuiRating-decimal css-1czqjfa-MuiRating-decimal"
+      >
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:rl:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            2.1 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:rl:"
+          name="test"
+          type="radio"
+          value="2.1"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:rm:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            2.2 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:rm:"
+          name="test"
+          type="radio"
+          value="2.2"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:rn:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            2.3 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:rn:"
+          name="test"
+          type="radio"
+          value="2.3"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:ro:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            2.4 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:ro:"
+          name="test"
+          type="radio"
+          value="2.4"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:rp:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            2.5 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:rp:"
+          name="test"
+          type="radio"
+          value="2.5"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:rq:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            2.6 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:rq:"
+          name="test"
+          type="radio"
+          value="2.6"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:rr:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            2.7 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:rr:"
+          name="test"
+          type="radio"
+          value="2.7"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:rs:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            2.8 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:rs:"
+          name="test"
+          type="radio"
+          value="2.8"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:rt:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            2.9 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:rt:"
+          name="test"
+          type="radio"
+          value="2.9"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:ru:"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            3 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:ru:"
+          name="test"
+          type="radio"
+          value="3"
+        />
+      </span>
+      <span
+        class="MuiRating-decimal css-1czqjfa-MuiRating-decimal"
+      >
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:rv:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            3.1 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:rv:"
+          name="test"
+          type="radio"
+          value="3.1"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r10:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            3.2 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r10:"
+          name="test"
+          type="radio"
+          value="3.2"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r11:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            3.3 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r11:"
+          name="test"
+          type="radio"
+          value="3.3"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r12:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            3.4 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r12:"
+          name="test"
+          type="radio"
+          value="3.4"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r13:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            3.5 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r13:"
+          name="test"
+          type="radio"
+          value="3.5"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r14:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            3.6 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r14:"
+          name="test"
+          type="radio"
+          value="3.6"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r15:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            3.7 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r15:"
+          name="test"
+          type="radio"
+          value="3.7"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r16:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            3.8 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r16:"
+          name="test"
+          type="radio"
+          value="3.8"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r17:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            3.9 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r17:"
+          name="test"
+          type="radio"
+          value="3.9"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r18:"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            4 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r18:"
+          name="test"
+          type="radio"
+          value="4"
+        />
+      </span>
+      <span
+        class="MuiRating-decimal css-1czqjfa-MuiRating-decimal"
+      >
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r19:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            4.1 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r19:"
+          name="test"
+          type="radio"
+          value="4.1"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r1a:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            4.2 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r1a:"
+          name="test"
+          type="radio"
+          value="4.2"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r1b:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            4.3 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r1b:"
+          name="test"
+          type="radio"
+          value="4.3"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r1c:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            4.4 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r1c:"
+          name="test"
+          type="radio"
+          value="4.4"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r1d:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            4.5 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r1d:"
+          name="test"
+          type="radio"
+          value="4.5"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r1e:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            4.6 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r1e:"
+          name="test"
+          type="radio"
+          value="4.6"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r1f:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            4.7 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r1f:"
+          name="test"
+          type="radio"
+          value="4.7"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r1g:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            4.8 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r1g:"
+          name="test"
+          type="radio"
+          value="4.8"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r1h:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            4.9 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r1h:"
+          name="test"
+          type="radio"
+          value="4.9"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r1i:"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            5 Stars
+          </span>
+        </label>
+        <input
+          checked=""
+          class="MuiRating-visuallyHidden"
+          id="test-:r1i:"
+          name="test"
+          type="radio"
+          value="5"
+        />
+      </span>
+      <span
+        class="MuiRating-decimal css-1czqjfa-MuiRating-decimal"
+      >
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r1j:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            5.1 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r1j:"
+          name="test"
+          type="radio"
+          value="5.1"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r1k:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            5.2 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r1k:"
+          name="test"
+          type="radio"
+          value="5.2"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r1l:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            5.3 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r1l:"
+          name="test"
+          type="radio"
+          value="5.3"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r1m:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            5.4 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r1m:"
+          name="test"
+          type="radio"
+          value="5.4"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r1n:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            5.5 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r1n:"
+          name="test"
+          type="radio"
+          value="5.5"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r1o:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            5.6 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r1o:"
+          name="test"
+          type="radio"
+          value="5.6"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r1p:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            5.7 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r1p:"
+          name="test"
+          type="radio"
+          value="5.7"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r1q:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            5.8 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r1q:"
+          name="test"
+          type="radio"
+          value="5.8"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r1r:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            5.9 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r1r:"
+          name="test"
+          type="radio"
+          value="5.9"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r1s:"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            6 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r1s:"
+          name="test"
+          type="radio"
+          value="6"
+        />
+      </span>
+      <span
+        class="MuiRating-decimal css-1czqjfa-MuiRating-decimal"
+      >
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r1t:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            6.1 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r1t:"
+          name="test"
+          type="radio"
+          value="6.1"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r1u:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            6.2 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r1u:"
+          name="test"
+          type="radio"
+          value="6.2"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r1v:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            6.3 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r1v:"
+          name="test"
+          type="radio"
+          value="6.3"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r20:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            6.4 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r20:"
+          name="test"
+          type="radio"
+          value="6.4"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r21:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            6.5 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r21:"
+          name="test"
+          type="radio"
+          value="6.5"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r22:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            6.6 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r22:"
+          name="test"
+          type="radio"
+          value="6.6"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r23:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            6.7 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r23:"
+          name="test"
+          type="radio"
+          value="6.7"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r24:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            6.8 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r24:"
+          name="test"
+          type="radio"
+          value="6.8"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r25:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            6.9 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r25:"
+          name="test"
+          type="radio"
+          value="6.9"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r26:"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            7 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r26:"
+          name="test"
+          type="radio"
+          value="7"
+        />
+      </span>
+      <span
+        class="MuiRating-decimal css-1czqjfa-MuiRating-decimal"
+      >
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r27:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            7.1 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r27:"
+          name="test"
+          type="radio"
+          value="7.1"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r28:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            7.2 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r28:"
+          name="test"
+          type="radio"
+          value="7.2"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r29:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            7.3 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r29:"
+          name="test"
+          type="radio"
+          value="7.3"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r2a:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            7.4 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r2a:"
+          name="test"
+          type="radio"
+          value="7.4"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r2b:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            7.5 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r2b:"
+          name="test"
+          type="radio"
+          value="7.5"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r2c:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            7.6 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r2c:"
+          name="test"
+          type="radio"
+          value="7.6"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r2d:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            7.7 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r2d:"
+          name="test"
+          type="radio"
+          value="7.7"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r2e:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            7.8 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r2e:"
+          name="test"
+          type="radio"
+          value="7.8"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r2f:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            7.9 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r2f:"
+          name="test"
+          type="radio"
+          value="7.9"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r2g:"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            8 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r2g:"
+          name="test"
+          type="radio"
+          value="8"
+        />
+      </span>
+      <span
+        class="MuiRating-decimal css-1czqjfa-MuiRating-decimal"
+      >
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r2h:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            8.1 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r2h:"
+          name="test"
+          type="radio"
+          value="8.1"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r2i:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            8.2 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r2i:"
+          name="test"
+          type="radio"
+          value="8.2"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r2j:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            8.3 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r2j:"
+          name="test"
+          type="radio"
+          value="8.3"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r2k:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            8.4 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r2k:"
+          name="test"
+          type="radio"
+          value="8.4"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r2l:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            8.5 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r2l:"
+          name="test"
+          type="radio"
+          value="8.5"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r2m:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            8.6 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r2m:"
+          name="test"
+          type="radio"
+          value="8.6"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r2n:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            8.7 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r2n:"
+          name="test"
+          type="radio"
+          value="8.7"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r2o:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            8.8 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r2o:"
+          name="test"
+          type="radio"
+          value="8.8"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r2p:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            8.9 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r2p:"
+          name="test"
+          type="radio"
+          value="8.9"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r2q:"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            9 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r2q:"
+          name="test"
+          type="radio"
+          value="9"
+        />
+      </span>
+      <span
+        class="MuiRating-decimal css-1czqjfa-MuiRating-decimal"
+      >
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r2r:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            9.1 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r2r:"
+          name="test"
+          type="radio"
+          value="9.1"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r2s:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            9.2 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r2s:"
+          name="test"
+          type="radio"
+          value="9.2"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r2t:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            9.3 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r2t:"
+          name="test"
+          type="radio"
+          value="9.3"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r2u:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            9.4 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r2u:"
+          name="test"
+          type="radio"
+          value="9.4"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r2v:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            9.5 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r2v:"
+          name="test"
+          type="radio"
+          value="9.5"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r30:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            9.6 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r30:"
+          name="test"
+          type="radio"
+          value="9.6"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r31:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            9.7 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r31:"
+          name="test"
+          type="radio"
+          value="9.7"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r32:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            9.8 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r32:"
+          name="test"
+          type="radio"
+          value="9.8"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r33:"
+          style="width: 0%; overflow: hidden; position: absolute;"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            9.9 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r33:"
+          name="test"
+          type="radio"
+          value="9.9"
+        />
+        <label
+          class="css-hlbajn-MuiRating-label"
+          for="test-:r34:"
+        >
+          <span
+            class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+              data-testid="RocketLaunchSharpIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M9.19 6.35c-2.04 2.29-3.44 5.58-3.57 5.89L2 10.69l4.81-4.81zM11.17 17s3.74-1.55 5.89-3.7c5.4-5.4 4.5-9.62 4.21-10.57-.95-.3-5.17-1.19-10.57 4.21C8.55 9.09 7 12.83 7 12.83zm6.48-2.19c-2.29 2.04-5.58 3.44-5.89 3.57L13.31 22l4.81-4.81zM9 18c0 .83-.34 1.58-.88 2.12C6.94 21.3 2 22 2 22s.7-4.94 1.88-6.12C4.42 15.34 5.17 15 6 15c1.66 0 3 1.34 3 3m4-9c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2"
+              />
+            </svg>
+          </span>
+          <span
+            class="MuiRating-visuallyHidden"
+          >
+            10 Stars
+          </span>
+        </label>
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-:r34:"
+          name="test"
+          type="radio"
+          value="10"
+        />
+      </span>
+      <label
+        class="MuiRating-label MuiRating-pristine css-hlbajn-MuiRating-label"
+      >
+        <input
+          class="MuiRating-visuallyHidden"
+          id="test-empty"
+          name="test"
+          type="radio"
+          value=""
+        />
+        <span
+          class="MuiRating-visuallyHidden"
+        >
+          Empty
+        </span>
+      </label>
+    </span>
+  </div>
+</div>
+`;

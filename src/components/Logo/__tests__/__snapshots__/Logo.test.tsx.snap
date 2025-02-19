@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Logo unchanged 1`] = `
+<div>
+  <div
+    class="wrapper"
+    data-testid="Logo"
+  >
+    <a
+      class="link"
+      href="/"
+    >
+      <img
+        alt="wookie"
+        class="image"
+        data-nimg="1"
+        decoding="async"
+        height="48"
+        src="/_next/image?url=%2Fimages%2Fchewy-96.png&w=96&q=75"
+        srcset="/_next/image?url=%2Fimages%2Fchewy-96.png&w=48&q=75 1x, /_next/image?url=%2Fimages%2Fchewy-96.png&w=96&q=75 2x"
+        style="color: transparent;"
+        width="48"
+      />
+      <div
+        class="title className"
+      >
+        W-Movies
+      </div>
+    </a>
+  </div>
+</div>
+`;

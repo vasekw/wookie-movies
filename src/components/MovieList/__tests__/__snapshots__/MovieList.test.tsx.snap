@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieList Component matches the snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      data-testid="MovieList"
+    >
+      <div
+        class="title className"
+        data-testid="MovieList-Action-title"
+      >
+        Action
+      </div>
+      <div
+        class="wrapper"
+        data-testid="MovieCarousel-wrapper"
+      >
+        <div
+          class="swiper"
+          data-testid="MovieCarousel"
+        >
+          <div
+            class="swiperSlide"
+          >
+            <a
+              href="?movie=1"
+            >
+              <img
+                alt="Action Movie"
+                data-nimg="1"
+                data-testid="MovieCarousel-image-1"
+                decoding="async"
+                height="360"
+                loading="lazy"
+                src="/_next/image?url=%2Fimage1.jpg&w=640&q=75"
+                srcset="/_next/image?url=%2Fimage1.jpg&w=256&q=75 1x, /_next/image?url=%2Fimage1.jpg&w=640&q=75 2x"
+                style="color: transparent;"
+                width="240"
+              />
+              <div
+                class="className overlay"
+              >
+                Action Movie
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      data-testid="MovieList"
+    >
+      <div
+        class="title className"
+        data-testid="MovieList-Drama-title"
+      >
+        Drama
+      </div>
+      <div
+        class="wrapper"
+        data-testid="MovieCarousel-wrapper"
+      >
+        <div
+          class="swiper"
+          data-testid="MovieCarousel"
+        >
+          <div
+            class="swiperSlide"
+          >
+            <a
+              href="?movie=2"
+            >
+              <img
+                alt="Drama Movie"
+                data-nimg="1"
+                data-testid="MovieCarousel-image-2"
+                decoding="async"
+                height="360"
+                loading="lazy"
+                src="/_next/image?url=%2Fimage2.jpg&w=640&q=75"
+                srcset="/_next/image?url=%2Fimage2.jpg&w=256&q=75 1x, /_next/image?url=%2Fimage2.jpg&w=640&q=75 2x"
+                style="color: transparent;"
+                width="240"
+              />
+              <div
+                class="className overlay"
+              >
+                Drama Movie
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

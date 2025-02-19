@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders NoResults unchanged 1`] = `
+<div>
+  <div
+    class="noResults"
+  >
+    <div
+      class="className noResultsTitle"
+    >
+      We searched Earth to no avail.
+    </div>
+    <img
+      alt="earth"
+      data-nimg="1"
+      decoding="async"
+      height="250"
+      loading="lazy"
+      src="/_next/image?url=%2Fimages%2Fearth.png&w=640&q=75"
+      srcset="/_next/image?url=%2Fimages%2Fearth.png&w=256&q=75 1x, /_next/image?url=%2Fimages%2Fearth.png&w=640&q=75 2x"
+      style="color: transparent;"
+      width="250"
+    />
+    <div
+      class="className noResultsTitle"
+    >
+      Try searching for something else.
+    </div>
+  </div>
+</div>
+`;
