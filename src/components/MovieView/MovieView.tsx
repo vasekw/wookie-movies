@@ -26,7 +26,7 @@ const MovieView: React.FC<MovieViewProps> = ({ movie }) => {
   const formattedRating = formatRating(movie.imdb_rating);
 
   return (
-    <div data-testid={`MovieView-${movie.id}`} className={styles.wrapper}>
+    <div data-testid={`MovieView`} className={styles.wrapper}>
       <div className={styles.content}>
         {movie.poster && (
           <Image

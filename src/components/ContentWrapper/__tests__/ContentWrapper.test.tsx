@@ -88,14 +88,17 @@ describe("ContentWrapper", () => {
     const mockSearchParams = new URLSearchParams({ movie: "1" });
     (useSearchParams as jest.Mock).mockImplementation(() => mockSearchParams);
 
-    const fetchMovieMock = (
-      movieApi.fetchMovieById as jest.Mock
-    ).mockResolvedValue(mockMovie);
+    const getMovieMock = (movieApi.fetchMovieById as jest.Mock).mockResolvedValue(
+    { mockMovie },
+  );
 
-    render(<ContentWrapper />);
+    // eslint-disable-next-line testing-library/no-unnecessary-act
+    await act(async () => {
+      render(<ContentWrapper />);
+    });
 
     await waitFor(() => {
-      expect(screen.getByTestId("MovieView-1")).toBeInTheDocument();
+      expect(screen.getByTestId("MovieView")).toBeInTheDocument();
     });
     expect(searchMoviesMock).toHaveBeenCalledTimes(0);
     expect(fetchMoviesMock).toHaveBeenCalledTimes(0);

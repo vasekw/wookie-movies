@@ -1,6 +1,7 @@
 import styles from "./page.module.css";
 import MenuBar from "@/components/MenuBar/MenuBar";
 import ContentWrapper from "@/components/ContentWrapper/ContentWrapper";
+import { Suspense } from "react";
 
 export default function Home() {
   return (
@@ -9,7 +10,9 @@ export default function Home() {
         <MenuBar />
       </header>
       <main data-testid="main" className={styles.main}>
-        <ContentWrapper />
+        <Suspense>
+          <ContentWrapper />
+        </Suspense>
       </main>
       <footer data-testid="footer" className={styles.footer}></footer>
     </div>

@@ -5,6 +5,7 @@ import { Movie } from "@/helpers/movieApi";
 jest.mock("next/image", () => {
   // eslint-disable-next-line react/display-name
   return ({ src, alt, width, height }: never) => (
+      // eslint-disable-next-line @next/next/no-img-element
     <img src={src} alt={alt} width={width} height={height} />
   );
 });
