@@ -4,7 +4,11 @@ Welcome to Wookie Movies, Kashyyyk's premier destination for seeing what Humans 
 
 Sit back and enjoy the ride (after some initial configuration).
 
-## Getting Started
+## Viewing the site
+
+Visit https://wookie-movies-nine.vercel.app/
+
+## Getting Started (Run Locally)
 
 Before starting, ensure you have the latest version of [Node.js](https://nodejs.org/en) installed, which should
 include [npm](https://docs.npmjs.com/)
