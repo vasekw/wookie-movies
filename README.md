@@ -105,54 +105,30 @@ flowchart TD
         MovieDetailEndpoint[/wookie.codesubmit.io/movies/id/]:::serverAPI
     end
 
-%% UI Components
-    subgraph UI Components
-        MovieDetailView((MovieView)):::ui
-        MovieCarouselView((MovieCarousel)):::ui
-        MovieGridView((MovieGrid)):::ui
-        NoResultsView((NoResults)):::ui
-        LoadingView((Loading)):::ui
-    end
 
-%% Responses
-    subgraph Responses
-        WaitingForResponse{Awaiting Response}:::response
-        ResponseMovies{"Response: Movies[]"}:::response
-        ResponseMoviesFound{"Response: Movies[]"}:::response
-        ResponseNoResults{"Response: []"}:::response
-        ResponseMovieDetail{"Response: Movie"}:::response
-    end
+
 
 %% User Actions to Page URLs
     GoHomeOrClearSearch --> RootURL
     EnterSearchTerm --> SearchURL
     ClickMovieIcon --> MovieDetailURL
 %% Page URLs to Client API Requests
-    RootURL <== GET ==> FetchMovies
-    SearchURL <== GET ==> SearchMovies
-    MovieDetailURL <== GET ==> FetchMovieDetail
+    RootURL == GET ==> FetchMovies
+    SearchURL == GET ==> SearchMovies
+    MovieDetailURL == GET ==> FetchMovieDetail
 %% Client API to Server API Requests
     FetchMovies <== GET ==> MoviesEndpoint
     SearchMovies <== GET ==> SearchMoviesEndpoint
     FetchMovieDetail <== GET ==> MovieDetailEndpoint
-%% Handling Responses
-    FetchMovies --> ResponseMovies --> MovieCarouselView
-    SearchMovies --> ResponseMoviesFound --> MovieGridView
-    SearchMovies --> ResponseNoResults --> NoResultsView
-    FetchMovieDetail --> ResponseMovieDetail --> MovieDetailView
-%% Loading State
-    ClientAPI --> WaitingForResponse --> LoadingView
+
 %% Legend
     subgraph Legend[Legend]
         UserActions[User Actions]:::action
         URLs[Page URLs]:::url
         ClientLayer[Client Layer API]:::clientAPI
         ServerLayer[Server Layer API]:::serverAPI
-        ResponsesLayer[Responses]:::response
-        UIComponentsLayer[UI Components]:::ui
     end
 
-    linkStyle 9,11,13,15 stroke-width: 4px, fill: none, stroke: green;
 ```
 
 This flowchart outlines the architecture of a movie search and details retrieval system built with a client-server

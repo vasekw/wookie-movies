@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useRef, useCallback } from "react";
+import React from "react";
 import styles from "./MovieCarousel.module.scss";
 import { Movie } from "@/helpers/movieApi";
 import Image from "next/image";
@@ -18,25 +18,8 @@ interface MovieCarouselProps {
 }
 
 const MovieCarousel: React.FC<MovieCarouselProps> = ({ movies }) => {
-  const carouselRef = useRef<HTMLDivElement>(null);
-
-  const handleScroll = useCallback((e: React.WheelEvent<HTMLDivElement>) => {
-    e.preventDefault();
-    if (carouselRef.current) {
-      carouselRef.current.scrollBy({
-        left: e.deltaY,
-        behavior: "smooth",
-      });
-    }
-  }, []);
-
   return (
-    <div
-      data-testid="MovieCarousel-wrapper"
-      className={styles.wrapper}
-      ref={carouselRef}
-      onScroll={handleScroll}
-    >
+    <div data-testid="MovieCarousel-wrapper" className={styles.wrapper}>
       <div data-testid="MovieCarousel" className={styles.swiper}>
         {movies.map((movie) => (
           <div key={movie.id} className={styles.swiperSlide}>
